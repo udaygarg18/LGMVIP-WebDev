@@ -1,0 +1,185 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#navbar{
+    display: flex;
+    position: sticky;
+    
+}
+
+
+
+
+
+#navbar ul{
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+}
+
+#navbar ul li{ 
+    list-style: none;
+   
+}
+
+#navbar ul li a{
+    color: white;
+   padding: 3px 130px;
+   text-decoration: none;
+    margin:auto;
+}
+a:hover {
+    background-color: grey;
+  }
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 549px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('chain.jfif') ;
+    height: 600px;
+    top:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.88;
+}
+
+#home h1{
+    color:white;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+#home p{
+    color:white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Rubik', sans-serif;
+}
+#Description{
+    margin: 0px;
+    display: flex;
+    background: url('jewell.jpg');
+}
+#Description.box{ 
+    padding: 33px;
+    margin: 2px 54px;
+   margin-bottom: 18px;
+}
+
+#Description .box img{ 
+   height: 259px;
+   margin: auto;
+   display: block;
+}
+
+#Description .box p{
+    font-family: 'Rubik', sans-serif;
+    color:white;
+
+} 
+#Trending-part{ 
+    position: relative;
+}
+
+#Trending-part::before{
+ content: "";
+ position: absolute;
+
+ width: 99%;
+ height: 99%;
+ 
+}
+
+#Trending{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('chain.jfif');
+}
+
+.Trending-product{
+    padding: 33px;
+}
+
+#Trending img{
+    height: 124px;
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    background: url('jewell.jpg') no-repeat center center/cover;
+
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 36px;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+} 
+
+#contact-box form{
+    width: 38%;
+}
+
+#contact-box label{
+   font-size: 1.2rem;
+   font-family: 'Rubik', sans-serif;
+
+}
+
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+
+.mainjewellery{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.tempjewellery{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+
+
+.center{
+    text-align: center;
+
+
+
+
+}
